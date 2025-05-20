@@ -1,0 +1,36 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ
+*.iml
+.idea/
+out/
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+
+# Docker
+*.pid
+*.tar
+docker-compose.override.yml
+
+# Static bundling output
+**/static/assets/
+
+# Test
+test-output/
