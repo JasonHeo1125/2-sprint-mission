@@ -33,4 +33,4 @@ docker-compose.override.yml
 **/static/assets/
 
 # Test
-test-output/
+test-output/discodeit.env

@@ -12,8 +12,7 @@ spring:
       ddl-auto: validate
     open-in-view: false
   profiles:
-    active:
-      - dev
+    active: dev
 
 management:
   endpoints:
@@ -43,12 +42,6 @@ info:
     multipart:
       max-file-size: ${spring.servlet.multipart.maxFileSize}
       max-request-size: ${spring.servlet.multipart.maxRequestSize}
-
-discodeit:
-  storage:
-    type: local
-    local:
-      root-path: .discodeit/storage
 
 logging:
   level:

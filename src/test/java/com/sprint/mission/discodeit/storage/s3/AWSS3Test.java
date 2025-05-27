@@ -46,7 +46,7 @@ public class AWSS3Test {
   @Test
   void download() {
     S3Client s3 = getClient();
-    String key = "test/샘플파일명"; // 위에서 업로드한 key 입력
+    String key = "test/dbc1e4a6-d3db-44a2-9f83-c0edfbec6176"; // 위에서 업로드한 key 입력
 
     GetObjectRequest getRequest = GetObjectRequest.builder()
         .bucket(bucket)
