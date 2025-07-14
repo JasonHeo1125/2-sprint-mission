@@ -1,0 +1,140 @@
+25-07-11 09:37:37.938 [background-preinit] [32mINFO [0;39m o.h.validator.internal.util.Version  [ |  | ] - HV000001: Hibernate Validator 8.0.1.Final
+25-07-11 09:37:37.999 [main] [32mINFO [0;39m c.s.m.discodeit.DiscodeitApplication [ |  | ] - Starting DiscodeitApplication using Java 17.0.14 with PID 86122 (/Users/jasonheo/2-sprint-mission/build/classes/java/main started by jasonheo in /Users/jasonheo/2-sprint-mission)
+25-07-11 09:37:38.000 [main] [32mDEBUG[0;39m c.s.m.discodeit.DiscodeitApplication [ |  | ] - Running with Spring Boot v3.4.0, Spring v6.2.0
+25-07-11 09:37:38.001 [main] [32mINFO [0;39m c.s.m.discodeit.DiscodeitApplication [ |  | ] - The following 1 profile is active: "dev"
+25-07-11 09:37:39.262 [main] [32mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate [ |  | ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+25-07-11 09:37:39.346 [main] [32mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate [ |  | ] - Finished Spring Data repository scanning in 71 ms. Found 6 JPA repository interfaces.
+25-07-11 09:37:40.166 [main] [32mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer     [ |  | ] - Tomcat initialized with port 8080 (http)
+25-07-11 09:37:40.177 [main] [32mINFO [0;39m o.a.coyote.http11.Http11NioProtocol  [ |  | ] - Initializing ProtocolHandler ["http-nio-8080"]
+25-07-11 09:37:40.179 [main] [32mINFO [0;39m o.a.catalina.core.StandardService    [ |  | ] - Starting service [Tomcat]
+25-07-11 09:37:40.179 [main] [32mINFO [0;39m o.a.catalina.core.StandardEngine     [ |  | ] - Starting Servlet engine: [Apache Tomcat/10.1.33]
+25-07-11 09:37:40.232 [main] [32mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/]   [ |  | ] - Initializing Spring embedded WebApplicationContext
+25-07-11 09:37:40.232 [main] [32mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext [ |  | ] - Root WebApplicationContext: initialization completed in 2184 ms
+25-07-11 09:37:40.480 [main] [32mINFO [0;39m com.zaxxer.hikari.HikariDataSource   [ |  | ] - HikariPool-1 - Starting...
+25-07-11 09:37:40.591 [main] [32mINFO [0;39m com.zaxxer.hikari.pool.HikariPool    [ |  | ] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@733fa95c
+25-07-11 09:37:40.592 [main] [32mINFO [0;39m com.zaxxer.hikari.HikariDataSource   [ |  | ] - HikariPool-1 - Start completed.
+25-07-11 09:37:40.695 [main] [32mINFO [0;39m o.h.jpa.internal.util.LogHelper      [ |  | ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+25-07-11 09:37:40.760 [main] [32mINFO [0;39m org.hibernate.Version                [ |  | ] - HHH000412: Hibernate ORM core version 6.6.2.Final
+25-07-11 09:37:40.796 [main] [32mINFO [0;39m o.h.c.i.RegionFactoryInitiator       [ |  | ] - HHH000026: Second-level cache disabled
+25-07-11 09:37:41.126 [main] [32mINFO [0;39m o.s.o.j.p.SpringPersistenceUnitInfo  [ |  | ] - No LoadTimeWeaver setup: ignoring JPA class transformer
+25-07-11 09:37:41.226 [main] [32mINFO [0;39m o.hibernate.orm.connections.pooling  [ |  | ] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+25-07-11 09:37:42.173 [main] [32mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator   [ |  | ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-07-11 09:37:42.227 [main] [32mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean [ |  | ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+25-07-11 09:37:42.467 [main] [32mINFO [0;39m o.s.d.j.r.query.QueryEnhancerFactory [ |  | ] - Hibernate is in classpath; If applicable, HQL parser will be used.
+25-07-11 09:37:43.056 [main] [32mTRACE[0;39m o.s.s.c.a.a.c.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer [ |  | ] - Eagerly initializing {securityConfig=com.sprint.mission.discodeit.config.SecurityConfig$$SpringCGLIB$$0@413fe58f}
+25-07-11 09:37:43.063 [main] [32mDEBUG[0;39m o.s.s.a.h.RoleHierarchyImpl          [ |  | ] - setHierarchy() - The following role hierarchy was set: ROLE_ADMIN > ROLE_CHANNEL_MANAGER
+ROLE_CHANNEL_MANAGER > ROLE_USER
+25-07-11 09:37:43.064 [main] [32mDEBUG[0;39m o.s.s.a.h.RoleHierarchyImpl          [ |  | ] - buildRolesReachableInOneStepMap() - From role ROLE_ADMIN one can reach role ROLE_CHANNEL_MANAGER in one step.
+25-07-11 09:37:43.064 [main] [32mDEBUG[0;39m o.s.s.a.h.RoleHierarchyImpl          [ |  | ] - buildRolesReachableInOneStepMap() - From role ROLE_CHANNEL_MANAGER one can reach role ROLE_USER in one step.
+25-07-11 09:37:43.064 [main] [32mDEBUG[0;39m o.s.s.a.h.RoleHierarchyImpl          [ |  | ] - buildRolesReachableInOneOrMoreStepsMap() - From role ROLE_ADMIN one can reach [ROLE_USER, ROLE_CHANNEL_MANAGER] in one or more steps.
+25-07-11 09:37:43.065 [main] [32mDEBUG[0;39m o.s.s.a.h.RoleHierarchyImpl          [ |  | ] - buildRolesReachableInOneOrMoreStepsMap() - From role ROLE_CHANNEL_MANAGER one can reach [ROLE_USER] in one or more steps.
+25-07-11 09:37:43.091 [main] [32mINFO [0;39m o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [ |  | ] - Global AuthenticationManager configured with AuthenticationProvider bean with name daoAuthenticationProvider
+25-07-11 09:37:43.092 [main] [33mWARN [0;39m o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [ |  | ] - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+25-07-11 09:37:43.163 [main] [32mDEBUG[0;39m c.s.m.d.s.j.JwtAuthenticationFilter  [ |  | ] - Filter 'jwtAuthenticationFilter' configured for use
+25-07-11 09:37:43.164 [main] [32mDEBUG[0;39m c.s.m.d.c.f.JsonUsernamePasswordAuthenticationFilter [ |  | ] - Filter 'jsonUsernamePasswordAuthenticationFilter' configured for use
+25-07-11 09:37:43.691 [main] [32mINFO [0;39m o.s.b.a.w.s.WelcomePageHandlerMapping [ |  | ] - Adding welcome page: class path resource [static/index.html]
+25-07-11 09:37:44.091 [main] [32mINFO [0;39m o.s.b.a.e.web.EndpointLinksResolver  [ |  | ] - Exposing 4 endpoints beneath base path '/actuator'
+25-07-11 09:37:44.225 [main] [32mDEBUG[0;39m o.s.s.web.DefaultSecurityFilterChain [ |  | ] - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, JwtAuthenticationFilter, JsonUsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+25-07-11 09:37:44.892 [main] [32mINFO [0;39m o.a.coyote.http11.Http11NioProtocol  [ |  | ] - Starting ProtocolHandler ["http-nio-8080"]
+25-07-11 09:37:44.912 [main] [32mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer     [ |  | ] - Tomcat started on port 8080 (http) with context path '/'
+25-07-11 09:37:44.935 [main] [32mINFO [0;39m c.s.m.discodeit.DiscodeitApplication [ |  | ] - Started DiscodeitApplication in 7.779 seconds (process running for 9.118)
+25-07-11 09:37:45.021 [main] [32mDEBUG[0;39m org.hibernate.SQL                    [ |  | ] - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.password,
+        u1_0.profile_id,
+        u1_0.role,
+        u1_0.updated_at,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+25-07-11 09:37:45.022 [main] [32mTRACE[0;39m org.hibernate.orm.jdbc.bind          [ |  | ] - binding parameter (1:VARCHAR) <- [admin]
+25-07-11 09:37:45.353 [RMI TCP Connection(3)-127.0.0.1] [32mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/]   [ |  | ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-07-11 09:37:45.354 [RMI TCP Connection(3)-127.0.0.1] [32mINFO [0;39m o.s.web.servlet.DispatcherServlet    [ |  | ] - Initializing Servlet 'dispatcherServlet'
+25-07-11 09:37:45.356 [RMI TCP Connection(3)-127.0.0.1] [32mINFO [0;39m o.s.web.servlet.DispatcherServlet    [ |  | ] - Completed initialization in 2 ms
+25-07-11 09:44:26.596 [SpringApplicationShutdownHook] [32mINFO [0;39m o.s.b.w.e.tomcat.GracefulShutdown    [ |  | ] - Commencing graceful shutdown. Waiting for active requests to complete
+25-07-11 09:44:26.632 [tomcat-shutdown] [32mINFO [0;39m o.s.b.w.e.tomcat.GracefulShutdown    [ |  | ] - Graceful shutdown complete
+25-07-11 09:44:26.701 [SpringApplicationShutdownHook] [32mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean [ |  | ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+25-07-11 09:44:26.713 [SpringApplicationShutdownHook] [32mINFO [0;39m com.zaxxer.hikari.HikariDataSource   [ |  | ] - HikariPool-1 - Shutdown initiated...
+25-07-11 09:44:26.729 [SpringApplicationShutdownHook] [32mINFO [0;39m com.zaxxer.hikari.HikariDataSource   [ |  | ] - HikariPool-1 - Shutdown completed.
+25-07-11 13:14:30.117 [background-preinit] [32mINFO [0;39m o.h.validator.internal.util.Version  [ |  | ] - HV000001: Hibernate Validator 8.0.1.Final
+25-07-11 13:14:30.144 [main] [32mINFO [0;39m c.s.m.discodeit.DiscodeitApplication [ |  | ] - Starting DiscodeitApplication using Java 17.0.14 with PID 8021 (/Users/jasonheo/2-sprint-mission/build/classes/java/main started by jasonheo in /Users/jasonheo/2-sprint-mission)
+25-07-11 13:14:30.145 [main] [32mDEBUG[0;39m c.s.m.discodeit.DiscodeitApplication [ |  | ] - Running with Spring Boot v3.4.0, Spring v6.2.0
+25-07-11 13:14:30.146 [main] [32mINFO [0;39m c.s.m.discodeit.DiscodeitApplication [ |  | ] - The following 1 profile is active: "dev"
+25-07-11 13:14:30.833 [main] [32mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate [ |  | ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+25-07-11 13:14:30.877 [main] [32mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate [ |  | ] - Finished Spring Data repository scanning in 39 ms. Found 6 JPA repository interfaces.
+25-07-11 13:14:31.350 [main] [32mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer     [ |  | ] - Tomcat initialized with port 8080 (http)
+25-07-11 13:14:31.356 [main] [32mINFO [0;39m o.a.coyote.http11.Http11NioProtocol  [ |  | ] - Initializing ProtocolHandler ["http-nio-8080"]
+25-07-11 13:14:31.357 [main] [32mINFO [0;39m o.a.catalina.core.StandardService    [ |  | ] - Starting service [Tomcat]
+25-07-11 13:14:31.357 [main] [32mINFO [0;39m o.a.catalina.core.StandardEngine     [ |  | ] - Starting Servlet engine: [Apache Tomcat/10.1.33]
+25-07-11 13:14:31.392 [main] [32mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/]   [ |  | ] - Initializing Spring embedded WebApplicationContext
+25-07-11 13:14:31.392 [main] [32mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext [ |  | ] - Root WebApplicationContext: initialization completed in 1225 ms
+25-07-11 13:14:31.532 [main] [32mINFO [0;39m com.zaxxer.hikari.HikariDataSource   [ |  | ] - HikariPool-1 - Starting...
+25-07-11 13:14:31.617 [main] [32mINFO [0;39m com.zaxxer.hikari.pool.HikariPool    [ |  | ] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6ffc6ea7
+25-07-11 13:14:31.618 [main] [32mINFO [0;39m com.zaxxer.hikari.HikariDataSource   [ |  | ] - HikariPool-1 - Start completed.
+25-07-11 13:14:31.674 [main] [32mINFO [0;39m o.h.jpa.internal.util.LogHelper      [ |  | ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+25-07-11 13:14:31.709 [main] [32mINFO [0;39m org.hibernate.Version                [ |  | ] - HHH000412: Hibernate ORM core version 6.6.2.Final
+25-07-11 13:14:31.728 [main] [32mINFO [0;39m o.h.c.i.RegionFactoryInitiator       [ |  | ] - HHH000026: Second-level cache disabled
+25-07-11 13:14:31.891 [main] [32mINFO [0;39m o.s.o.j.p.SpringPersistenceUnitInfo  [ |  | ] - No LoadTimeWeaver setup: ignoring JPA class transformer
+25-07-11 13:14:31.958 [main] [32mINFO [0;39m o.hibernate.orm.connections.pooling  [ |  | ] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+25-07-11 13:14:32.520 [main] [32mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator   [ |  | ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25-07-11 13:14:32.562 [main] [32mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean [ |  | ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+25-07-11 13:14:32.701 [main] [32mINFO [0;39m o.s.d.j.r.query.QueryEnhancerFactory [ |  | ] - Hibernate is in classpath; If applicable, HQL parser will be used.
+25-07-11 13:14:33.074 [main] [32mTRACE[0;39m o.s.s.c.a.a.c.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer [ |  | ] - Eagerly initializing {securityConfig=com.sprint.mission.discodeit.config.SecurityConfig$$SpringCGLIB$$0@6951e062}
+25-07-11 13:14:33.077 [main] [32mDEBUG[0;39m o.s.s.a.h.RoleHierarchyImpl          [ |  | ] - setHierarchy() - The following role hierarchy was set: ROLE_ADMIN > ROLE_CHANNEL_MANAGER
+ROLE_CHANNEL_MANAGER > ROLE_USER
+25-07-11 13:14:33.078 [main] [32mDEBUG[0;39m o.s.s.a.h.RoleHierarchyImpl          [ |  | ] - buildRolesReachableInOneStepMap() - From role ROLE_ADMIN one can reach role ROLE_CHANNEL_MANAGER in one step.
+25-07-11 13:14:33.078 [main] [32mDEBUG[0;39m o.s.s.a.h.RoleHierarchyImpl          [ |  | ] - buildRolesReachableInOneStepMap() - From role ROLE_CHANNEL_MANAGER one can reach role ROLE_USER in one step.
+25-07-11 13:14:33.078 [main] [32mDEBUG[0;39m o.s.s.a.h.RoleHierarchyImpl          [ |  | ] - buildRolesReachableInOneOrMoreStepsMap() - From role ROLE_ADMIN one can reach [ROLE_USER, ROLE_CHANNEL_MANAGER] in one or more steps.
+25-07-11 13:14:33.078 [main] [32mDEBUG[0;39m o.s.s.a.h.RoleHierarchyImpl          [ |  | ] - buildRolesReachableInOneOrMoreStepsMap() - From role ROLE_CHANNEL_MANAGER one can reach [ROLE_USER] in one or more steps.
+25-07-11 13:14:33.095 [main] [32mINFO [0;39m o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [ |  | ] - Global AuthenticationManager configured with AuthenticationProvider bean with name daoAuthenticationProvider
+25-07-11 13:14:33.096 [main] [33mWARN [0;39m o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [ |  | ] - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+25-07-11 13:14:33.137 [main] [32mDEBUG[0;39m c.s.m.d.s.j.JwtAuthenticationFilter  [ |  | ] - Filter 'jwtAuthenticationFilter' configured for use
+25-07-11 13:14:33.138 [main] [32mDEBUG[0;39m c.s.m.d.c.f.JsonUsernamePasswordAuthenticationFilter [ |  | ] - Filter 'jsonUsernamePasswordAuthenticationFilter' configured for use
+25-07-11 13:14:33.475 [main] [32mINFO [0;39m o.s.b.a.w.s.WelcomePageHandlerMapping [ |  | ] - Adding welcome page: class path resource [static/index.html]
+25-07-11 13:14:33.730 [main] [32mINFO [0;39m o.s.b.a.e.web.EndpointLinksResolver  [ |  | ] - Exposing 4 endpoints beneath base path '/actuator'
+25-07-11 13:14:33.822 [main] [32mDEBUG[0;39m o.s.s.web.DefaultSecurityFilterChain [ |  | ] - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, JwtAuthenticationFilter, JsonUsernamePasswordAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+25-07-11 13:14:34.277 [main] [32mINFO [0;39m o.a.coyote.http11.Http11NioProtocol  [ |  | ] - Starting ProtocolHandler ["http-nio-8080"]
+25-07-11 13:14:34.289 [main] [32mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer     [ |  | ] - Tomcat started on port 8080 (http) with context path '/'
+25-07-11 13:14:34.303 [main] [32mINFO [0;39m c.s.m.discodeit.DiscodeitApplication [ |  | ] - Started DiscodeitApplication in 4.492 seconds (process running for 4.944)
+25-07-11 13:14:34.355 [main] [32mDEBUG[0;39m org.hibernate.SQL                    [ |  | ] - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.password,
+        u1_0.profile_id,
+        u1_0.role,
+        u1_0.updated_at,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+25-07-11 13:14:34.356 [main] [32mTRACE[0;39m org.hibernate.orm.jdbc.bind          [ |  | ] - binding parameter (1:VARCHAR) <- [admin]
+25-07-11 13:14:34.639 [RMI TCP Connection(4)-127.0.0.1] [32mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/]   [ |  | ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-07-11 13:14:34.639 [RMI TCP Connection(4)-127.0.0.1] [32mINFO [0;39m o.s.web.servlet.DispatcherServlet    [ |  | ] - Initializing Servlet 'dispatcherServlet'
+25-07-11 13:14:34.640 [RMI TCP Connection(4)-127.0.0.1] [32mINFO [0;39m o.s.web.servlet.DispatcherServlet    [ |  | ] - Completed initialization in 1 ms
+25-07-11 13:21:06.037 [SpringApplicationShutdownHook] [32mINFO [0;39m o.s.b.w.e.tomcat.GracefulShutdown    [ |  | ] - Commencing graceful shutdown. Waiting for active requests to complete
+25-07-11 13:21:06.051 [tomcat-shutdown] [32mINFO [0;39m o.s.b.w.e.tomcat.GracefulShutdown    [ |  | ] - Graceful shutdown complete
+25-07-11 13:21:06.060 [SpringApplicationShutdownHook] [32mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean [ |  | ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+25-07-11 13:21:06.062 [SpringApplicationShutdownHook] [32mINFO [0;39m com.zaxxer.hikari.HikariDataSource   [ |  | ] - HikariPool-1 - Shutdown initiated...
+25-07-11 13:21:06.065 [SpringApplicationShutdownHook] [32mINFO [0;39m com.zaxxer.hikari.HikariDataSource   [ |  | ] - HikariPool-1 - Shutdown completed.
